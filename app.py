@@ -1,4 +1,6 @@
+# pyrefly: ignore [missing-import]
 import streamlit as st
+# pyrefly: ignore [missing-import]
 import torch
 from transformers import AutoImageProcessor, SiglipForImageClassification
 from PIL import Image
