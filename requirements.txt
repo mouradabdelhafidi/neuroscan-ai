@@ -1,11 +1,10 @@
 # ──────────────────────────────────────────────────────────────────────────────
 # NeuroScan AI — Dependencies
 # Made by Mohammed Mourad Abdelhafidi
-#
-# NOTE: torch is NOT listed here. Install it separately:
-#   CPU:  pip install torch --index-url https://download.pytorch.org/whl/cpu
-#   GPU:  pip install torch  (installs CUDA-enabled version)
 # ──────────────────────────────────────────────────────────────────────────────
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0
 
 # Core ML & Model Inference
 transformers>=4.42.0
