@@ -7,6 +7,8 @@ MRI-based brain tumor classification powered by a fine-tuned SigLIP vision trans
 > **⚠️ PoC Disclaimer**
 > This application is a technical **Proof of Concept** built for research and demonstration purposes only. It is **not intended for clinical diagnostic use**. Model accuracy is experimental and has not been validated against clinical benchmarks. Always consult a qualified medical professional for diagnosis.
 
+> **🚀 Live Demo**: [https://neuroscan-ai-tech.streamlit.app/](https://neuroscan-ai-tech.streamlit.app/)
+
 ---
 
 ## Features
@@ -68,7 +70,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The app will open at `https://neuroscan-ai-tech.streamlit.app/`.
+The app will open locally at `http://localhost:8501`.
 
 ---
 
@@ -122,14 +124,14 @@ Visit `http://localhost:8501` to use the app.
 
 ---
 
-### Option C: Streamlit Community Cloud
+### Option C: Streamlit Community Cloud (Current Deployment)
 
 1. Push to GitHub (public repository)
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Click "New app" → select your repository → set `app.py` as the main file
-4. Add a `packages.txt` with system dependencies if needed
+4. Your app is now live!
 
-> **Note:** Streamlit Community Cloud has resource limits. For models this size, Docker-based deployment (Options A or B) is more reliable.
+> **Note:** The current version of this app is successfully deployed and running on Streamlit Community Cloud at `https://neuroscan-ai-tech.streamlit.app/`.
 
 ---
 
