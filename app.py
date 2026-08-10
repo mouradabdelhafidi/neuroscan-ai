@@ -169,7 +169,7 @@ with tab_analyze:
             
             if uploaded_file is not None:
                 image = Image.open(uploaded_file).convert('RGB')
-                st.image(image, use_column_width=True)
+                st.image(image, use_container_width=True)
 
     with col2:
         with st.container(border=True):
@@ -231,7 +231,7 @@ with tab_history:
                 with h_col1:
                     if os.path.exists(scan['image_path']):
                         try:
-                            st.image(Image.open(scan['image_path']), use_column_width=True)
+                            st.image(Image.open(scan['image_path']), use_container_width=True)
                         except Exception:
                             st.error("Image file corrupted")
                     else:
