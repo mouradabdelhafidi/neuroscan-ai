@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# User-generated data (SQLite DB + saved scan images)
+data/
+
+# HuggingFace / model cache
+.cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Generated reports
+*.pdf
+
+# OS junk
+.DS_Store
+Thumbs.db
